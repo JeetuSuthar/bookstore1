@@ -175,5 +175,21 @@ h5{
     padding:  5% 1% 2%;
    
 }
+@media (max-width: 1028px) {
 
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+
+        text-align: center;
+        padding: 7% 15%;
+    }
+    p{
+        text-align: center;
+    } 
+    
+}
 
