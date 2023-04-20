@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>BookStore</title>
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/43124feaf5.js" crossorigin="anonymous"></script>
+
+    <!-- Google fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href= "https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <!-- bootstrap script -->
+
+    <link href= "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+
+
+
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <section id="top-navbar">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="#">Bookstore</a>
+
+                <img class="bookstore-img" src="images/bookstore.jpg" alt="Bootstrap" width="50" height="60">
+
+
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">New Arrivals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success " type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <hr>
+    </section>
+
+
+
+    <!-- Title -->
+    <section id="title">
+        <div class="row">
+            <div class="col-lg-6 column">
+                <h1>WELCOME TO <span class="span-title">BOOKSTORE</span></h1>
+                <br>
+                <p>"Welcome to our bookstore, where books are more than just ink on paper. We believe in the power of
+                    stories to inspire, educate, and transform lives. Our collection of books spans across genres and
+                    topics, from classic literature to cutting-edge research, from heartwarming children's stories to
+                    captivating thrillers. Whether you're an avid reader or just looking for a good book to curl up
+                    with, we're here to help you find your next favorite read. With our commitment to exceptional
+                    customer service and a passion for all things literary, we invite you to explore our shelves and
+                    discover the magic of books."</p>
+                <button type="button" class="btn btn-outline-secondary btn-lg ">Learn More</button>
+            </div><br>
+            <div class="col-lg-6 column">
+                <img class="store-img" src="images/store-image.jpg" alt="Bookstore-img">
+            </div>
+
+        </div>
+    </section>
+    <hr class="round-hr">
+
+
+    <!-- FEATURES -->
+
+    <section id="features">
+        <div class="row">
+            <div class="col-lg-3 col-md-4 ">
+                <h3 class="feature-box">Quality Guarantee</h3>
+                <p>Whatever you purchase, we assure you on the quality delivered . Any damages , we instantly refund ,
+                    no questions asked.</p>
+            </div>
+            <div class="col-lg-3 col-md-4 ">
+                <h3 class="feature-box">Doorstep Service</h3>
+                <p>Experience the most hassle free doorstep library service in Pune. However, if you choose to buy, we
+                    offer free delivery to your place.</p>
+            </div>
+            <div class="col-lg-3 col-md-4 ">
+                <h3 class="feature-box">Subscription Plans</h3>
+                <p>We bring to you the most affordable Book Subscription plans, so you could just focus on your love for
+                    reading.</p>
+            </div>
+            <div class="col-lg-3 col-md-4 ">
+                <h3 class="feature-box">Quick Delivery</h3>
+                <p>We promise same/next day delivery in Wakad (Pune). Other locations are served within 3-4 days.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <hr class="round-hr">
+
+    <!-- testimonials -->
+
+
+    <section class="coloured-section" id="testimonials">
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h2 class="testimonial-text">Find Books for All Ages .</h2>
+
+                    <div class="background-1"> </div>
+                </div>
+
+                <div class="carousel-item">
+                    <h2 class="testimonial-text">Discover the perfect book for you or a loved one .Happy reading!! </h2>
+                    <div class="background-2">
+
+                    </div>
+                </div>
+            </div>
+            <button class=" carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class=" carousel-control-prev-icon " aria-hidden="true"></span>
+                <span class=" visually-hidden ">Previous</span>
+            </button>
+            <button class=" carousel-control-next " type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class=" carousel-control-next-icon " aria-hidden="true"></span>
+                <span class=" visually-hidden ">Next</span>
+            </button>
+        </div>
+
+    </section>
+
+
+    <!-- books -->
+
+    <!-- <div class="row row-cols-1 row-cols-md-3 g-4"> -->
+    <h3 class="store-highlight">Store Highlights</h4>
+        <p>QUICK HIGHLIGHT OF WHAT WE HAVE IN STORE</p>
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 col-xs-6">
+                <div class="card">
+                    <img src="images/book1.jpg" class="card-img-top" alt="book1.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">The Power Of your Subconcius Mind</h5>
+                        <p class="card-text">Author: Dr. Joseph Murphy</p>
+                        <p>Price: 149/-</p>
+                        <button type="button" class="btn btn-outline-dark btn-lg ">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-6">
+                <div class="card">
+                    <img src="images/book2.jpg" class="card-img-top" alt="book1.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">Hyper Focus</h5>
+                        <p class="card-text"> Author : Chris Bailey</p>
+                        <p>Price:129/-</p>
+                        <button type="button" class="btn btn-outline-dark btn-lg ">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-6">
+                <div class="card">
+                    <img src="images/book3.jpg" class="card-img-top" alt="book1.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">Do It Today</h5>
+                        <p class="card-text">Author: Darius Foroux</p>
+                        <p>Price:129/-</p>
+                        <button type="button" class="btn btn-outline-dark btn-lg ">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-6">
+                <div class="card">
+                    <img src="images/book4.jpg" class="card-img-top" alt="book1.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">REWORK</h5>
+                        <p class="card-text">Author: Jason Fried </p>
+                        <p>Price:129/-</p>
+                        <button type="button" class="btn btn-outline-dark btn-lg ">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 col-xs-6">
+                <div class="card">
+                    <img src="images/book5.jpg" class="card-img-top" alt="book1.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">The Subtle Art of not giving fu*k</h5>
+                        <p class="card-text">Author:Mark Manson</p>
+                        <p>Price:129/-</p>
+                        <button type="button" class="btn btn-outline-dark btn-lg ">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-6">
+                <div class="card">
+                    <img src="images/book6.jpg" class="card-img-top" alt="book2.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">Atomic Habit</h5>
+                        <p class="card-text">Author: James Clear</p>
+                        <p>Price:129/-</p>
+                        <button type="button" class="btn btn-outline-dark btn-lg ">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-6">
+                <div class="card">
+                    <img src="images/book7.jpg" class="card-img-top" alt="book3.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">Think and Grow Rich</h5>
+                        <p class="card-text">Author: Napolian Hill</p>
+                        <p>Price:129/-</p>
+                        <button type="button" class="btn btn-outline-dark btn-lg ">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-6">
+                <div class="card">
+                    <img src="images/book8.jpg" class="card-img-top" alt="book4.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">Richest Man in Babylon</h5>
+                        <p class="card-text">Author:Georges Clasen</p>
+                        <p>Price:129/-</p>
+                        <button type="button" class="btn btn-outline-dark btn-lg ">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-6">
+                <div class="card">
+                    <img src="images/book9.jpg" class="card-img-top" alt="book5.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">Rich dad Poor dad</h5>
+                        <p class="card-text">Author: Robert Kiyosaki</p>
+                        <p>Price:129/-</p>
+                        <button type="button" class="btn btn-outline-dark btn-lg ">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-6">
+                <div class="card">
+                    <img src="images/book10.jpg" class="card-img-top" alt="book6.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">Cant Hurt Me</h5>
+                        <p class="card-text">Author:David Goggins</p>
+                        <p>Price:129/-</p>
+                        <button type="button" class="btn btn-outline-dark btn-lg ">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-6">
+                <div class="card">
+                    <img src="images/book11.jpg" class="card-img-top" alt="book7.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">The Alchemist</h5>
+                        <p class="card-text">Author: Paulo Coelo</p>
+                        <p>Price:129/-</p>
+                        <button type="button" class="btn btn-outline-dark btn-lg ">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-6">
+                <div class="card">
+                    <img src="images/book12.jpg" class="card-img-top" alt="book8.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">How to win friends and influence people</h5>
+                        <p class="card-text">Author:Dale Carnegie</p>
+                        <p>Price:129/-</p>
+                        <button type="button" class="btn btn-outline-dark btn-lg ">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="btn btn-outline-primary btn-lg load-more-btn">Load More</button>
+
+
+        </div>
+        </div>
+        <hr class="round-hr">
+
+        <footer id="footer">
+            <i class=" footer-logo fa-brands fa-twitter fa-lg "></i>
+            <i class="footer-logo fa-brands fa-instagram fa-lg"></i>
+            <i class="footer-logo fa-brands fa-facebook fa-lg"></i>
+           
+            <i class="footer-logo fa-solid fa-envelope fa-lg"></i>
+            <p>@Copyright2023 Jeetu Suthar</p>
+
+
+            
+        </footer>
+
+
+
+
+</body>
+
+</html>
